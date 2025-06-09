@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "autoname": "field:tenant",
+ "creation": "2025-06-02 16:59:11.117150",
+ "custom": 1,
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tenant",
+  "key",
+  "secret"
+ ],
+ "fields": [
+  {
+   "fieldname": "tenant",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tenant ",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "key",
+   "fieldtype": "Data",
+   "label": "API Key"
+  },
+  {
+   "fieldname": "secret",
+   "fieldtype": "Data",
+   "label": "API Secret"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-02 17:20:24.133563",
+ "modified_by": "Administrator",
+ "module": "Admin App",
+ "name": "Tenants",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
